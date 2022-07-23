@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebConference</title>
 </head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="css/webconf.css" rel="stylesheet">
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <!-- Barra de Navegação -->
         <a class="navbar-brand " href="#page-top">WebConference</a>
-
+        <!-- Botão de Navegação -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <!-- Itens de navegação -->
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                    <a class=" nav-link" href="#sobre">Sobre</a>
+                    <a class=" nav-link" href="#sobre">sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class=" nav-link" href="#speakers">Speakers</a>
+                    <a class=" nav-link" href="#speakers">speakers</a>
                 </li>
                 <li class="nav-item">
-                    <a class=" nav-link" href="#contatos">Concactos</a>
+                    <a class=" nav-link" href="#conctatos">contactos</a>
                 </li>
             </ul>
         </div>
@@ -35,9 +39,29 @@
 
 
 
-    <header>
+    <header class="masthead">
         <!-- Imagem Principal e botão de inscrição na conferência -->
+        <div class="container">
+            <div class="intro-text">
+                <!-- Título -->
+                <div class="intro-lead-in">Vamos celebrar a Web!</div>
+                <div class="intro-heading text-uppercase">WebConference</div>
+                <!-- Botão de inscrição -->
+                <a class="btn btn-primary btn-xl text-uppercase" href="#">inscrever</a>
+            </div>
+        </div>
     </header>
+
+
+
+
+
+
+
+
+
+
+
     <section id="about">
         <!-- Informação básica sobre a conferência -->
     </section>
@@ -50,8 +74,12 @@
     <footer>
         <!-- Links para as redes sociais e copyright -->
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </html>
